@@ -1,0 +1,68 @@
+.App {
+    min-width: 100%
+    
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    padding: .5em;
+    margin: auto;
+    background-color: red;
+    min-width: 100%;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.nav-bar {
+    top: 0; 
+    left: 0;
+    // padding-left: 1em;
+    padding-right: 1em;
+    position: sticky;
+    min-width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    font-size: large;
+
+    a {
+        text-decoration: none;
+        color: black;
+        
+        :hover {
+
+        }
+    }
+    ul {
+        display: inline-block;
+        list-style: none;
+        margin-right: 1em;
+        font-size: larger;
+        justify-content: space-between;
+    }
+
+    li {
+        display: inline-block;
+        padding: 5px;
+        margin: auto;
+        margin: 5px; 
+    }
+
+    .portfolio-switch{
+        margin-right: 10em;
+    }
+
+    .active {
+        color: grey;
+    }
+}
+
+
+.content-container {
+    // background-color: aquamarine;
+    overflow:visible;
+}
