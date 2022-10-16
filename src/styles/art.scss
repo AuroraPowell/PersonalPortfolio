@@ -1,13 +1,13 @@
 .art-page {
-    min-width: 100%;
-    min-height: 100%;
-    padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sidebar {
     width: 18%;
-    min-height: 100%;
-    position: absolute;
+    height: 100vh;
+    position: sticky;
+    top: 0;
     background-color: aqua;
     padding-left: 1em;
     opacity: 30%;
@@ -16,15 +16,27 @@
 
 .content {
     width: 79.5%;
-    max-height: 100vh;
+    max-height: 250vh;
     padding-left: 1em;
     float: right;
     background-color: maroon;
 
     .art-container {
-        max-height: 100vh;
+        img {
+            width: 20vw;
+        }
+        width: fit-content
+    }
+
+    ul {
+        list-style: none;
         display: flex;
-        flex-direction: column;
-        flex: 1 1;
+        flex-flow: column wrap;
+        max-height: 220vh;
+        width: fit-content;
+
+        li {
+            margin: 10px;
+        }
     }
 }
