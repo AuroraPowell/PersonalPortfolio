@@ -1,0 +1,30 @@
+.art-page {
+    min-width: 100%;
+    min-height: 100%;
+    padding: 0;
+}
+
+.sidebar {
+    width: 18%;
+    min-height: 100%;
+    position: absolute;
+    background-color: aqua;
+    padding-left: 1em;
+    opacity: 30%;
+    float: left;
+}
+
+.content {
+    width: 79.5%;
+    max-height: 100vh;
+    padding-left: 1em;
+    float: right;
+    background-color: maroon;
+
+    .art-container {
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        flex: 1 1;
+    }
+}

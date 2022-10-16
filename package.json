@@ -1,14 +1,14 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "A portfolio showcasing both my art and coding talents, built with React JS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "react-scripts start"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["portfolio", "art"],
+  "author": "Aurora Powell",
   "license": "ISC",
   "dependencies": {
     "npm": "^8.19.2",

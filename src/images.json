@@ -1,0 +1,51 @@
+[
+        {"title": "Tethered",
+        "year": "2020",
+        "medium": "acrylic on canvas",
+        "size": "19x19",
+        "imgPath": "../images/tethered.jpg",
+        "tag": "form"},
+    
+        {"title": "Reflection",
+        "year": "2021",
+        "medium": "acrylic on canvas",
+        "size": "32x48",
+        "imgPath": "../images/reflection.jpg",
+        "tag": "form"},
+    
+        {"title": "Stimulation",
+        "year": "2021",
+        "medium": "acrylic on canvas paper",
+        "size": "9x12",
+        "imgPath": "../images/stimulation.jpg",
+        "tag": "form"},
+    
+        {"title": "Josh",
+        "year": "2022",
+        "medium": "acrylic on canvas paper",
+        "size": "9x12",
+        "imgPath": "../images/josh.jpg",
+        "tag": "portrait"},
+    
+        {"title": "Xinia",
+        "year": "2022",
+        "medium": "acrylic on canvas paper",
+        "size": "9x12",
+        "imgPath": "../images/xinia.jpg",
+        "tag": "portrait"},
+    
+        {"title": "Ambrose",
+        "year": "2022",
+        "medium": "acrylic on canvas paper",
+        "size": "9x12",
+        "imgPath": "../images/ambrose.jpg",
+        "tag": "portrait"},
+    
+        {"title": "Evening",
+        "year": "2021",
+        "medium": "acrylic on canvas paper",
+        "size": "9x12",
+        "imgPath": "../images/evening.png",
+        "tag": "portrait"}
+    
+]

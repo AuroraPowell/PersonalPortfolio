@@ -6,11 +6,12 @@
 .footer {
     bottom: 0;
     left: 0;
+    margin:0;
     padding: .5em;
     margin: auto;
     background-color: red;
     min-width: 100%;
-    position: sticky;
+    position: fixed;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -19,6 +20,7 @@
 .nav-bar {
     top: 0; 
     left: 0;
+    margin: 0;
     // padding-left: 1em;
     padding-right: 1em;
     position: sticky;
@@ -27,15 +29,11 @@
     display: flex;
     align-items: center;
     background-color: transparent;
-    font-size: large;
+    font-size: medium;
 
     a {
         text-decoration: none;
         color: black;
-        
-        :hover {
-
-        }
     }
     ul {
         display: inline-block;

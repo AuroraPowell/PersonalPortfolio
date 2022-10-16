@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useState, useEffect } from "react";
 import {
   BrowserRouter as Router,
   useParams,
@@ -11,6 +11,7 @@ import Art from "./components/content-components/Art";
 import NavBar from "./components/navbar";
 import { FaReact } from "react-icons/fa";
 import "./styles/portfolio.scss";
+import data from "./images.json";
 
 const About = () => {};
 
@@ -18,7 +19,9 @@ const Contact = () => {};
 
 const Links = () => {};
 
-const Portfolio = (props) => {
+const Portfolio = () => {
+  const [artList, setArtList] = useState(data);
+
   return (
     <div className="App">
       <Router>
@@ -27,7 +30,7 @@ const Portfolio = (props) => {
         </div>
         <div className="content-container">
           <Routes>
-            <Route path="/art" element={<Art />} />
+            <Route exact path="/art" element={<Art artList={artList} />} />
             <Route path="/coding" element={<Coding />} />
           </Routes>
         </div>
