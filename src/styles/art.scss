@@ -14,29 +14,47 @@
     float: left;
 }
 
+.zoomed-art {
+    margin: auto;
+    align-items: center;
+    width: 40%;
+    vertical-align: middle;
+}
+
 .content {
     width: 79.5%;
     max-height: 250vh;
     padding-left: 1em;
     float: right;
     background-color: maroon;
+    flex-wrap: wrap;
 
     .art-container {
         img {
-            width: 20vw;
+            width: 15vw;
         }
-        width: fit-content
+        
     }
 
-    ul {
-        list-style: none;
-        display: flex;
-        flex-flow: column wrap;
-        max-height: 220vh;
-        width: fit-content;
+    button { 
+        outline: none;
+        border: none;
+        
+    }
 
-        li {
-            margin: 10px;
-        }
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 220vh;
+    
+    li {
+        margin: 10px;
+        // :hover {
+        //     cursor: pointer;
+        // }
     }
 }
